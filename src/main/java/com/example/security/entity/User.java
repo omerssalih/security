@@ -1,4 +1,4 @@
-package entity;
+package com.example.security.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "_users")
+@Table(name = "deneme")
 public class User implements UserDetails {
 
     @Id

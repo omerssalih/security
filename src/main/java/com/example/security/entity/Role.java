@@ -1,4 +1,4 @@
-package entity;
+package com.example.security.entity;
 
 public enum Role {
 
